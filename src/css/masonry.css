@@ -35,6 +35,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Tenor Sans, sans-serif;
+    cursor: pointer;
 }
 
 .date {
@@ -48,5 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     .parallax .responsive-img {
         position: absolute;
         bottom: 0;
+    }
+    .modal-fixed-footer {
+        width: 95vw !important;
     }
 }

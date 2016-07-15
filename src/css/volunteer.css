@@ -1,0 +1,36 @@
+.volunteer {
+	width: 90px;
+	height: 90px;
+	background-color: rgba(6,67,99,1);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 0 2px rgba(179,218,239,1);
+	cursor: pointer;
+	position: fixed;
+	z-index: 999;
+	outline: 0;
+	transform: translateX(90vw) translateY(85vh);
+}
+.volunteer p {
+	color: #fff;
+	font-family: Tenor Sans;
+}
+@media all and (max-width: 440px) {
+	.volunteer {
+		width: 85px;
+		height: 85px;
+		font-size: .95em;
+		transform: translateX(75.5vw) translateY(86.5vh);
+	}
+}
+@media all and (min-width: 441px) and (max-width: 810px) {
+	.volunteer {
+		width: 80px;
+		height: 80px;
+		font-size: .95em;
+		transform: translateX(87vw) translateY(77.5vh);
+	}
+}

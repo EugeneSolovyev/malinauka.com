@@ -1,0 +1,51 @@
+.news {
+    text-align: center;
+    font-size: 2em;
+    color: rgba(6, 67, 99, 1);
+}
+
+.parallax-text {
+    position: absolute;
+    top: calc(50% - 1.5em);
+    left: calc(50% - 2.5em);
+    font-size: 4em;
+    color: rgba(6, 67, 99, 1);
+}
+
+.parallax .responsive-img {
+    position: absolute;
+    bottom: 50%;
+}
+
+.grid {
+    width: 100%;
+}
+
+.grid-item {
+    width: 50%;
+    padding: 1em;
+    text-align: justify;
+    color: rgba(6, 67, 99, 1);
+}
+
+.grid-item h5 {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Tenor Sans, sans-serif;
+}
+
+.date {
+    font-style: italic;
+}
+
+@media all and (max-width: 810px) {
+    .grid-item {
+        width: 100%;
+    }
+    .parallax .responsive-img {
+        position: absolute;
+        bottom: 0;
+    }
+}
